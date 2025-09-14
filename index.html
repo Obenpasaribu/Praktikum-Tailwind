@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">Obenhard Pasaribu</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:underline">Tentang</a></li>
+          <li><a href="#services" class="hover:underline">Layanan</a></li>
+          <li><a href="#contact" class="hover:underline">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header
+      class="bg-gradient-to-r from-blue-500 to-blue-700 text-white text-center py-20"
+    >
+      <h2 class="text-4xl font-bold mb-4">Web Developer & UI/UX Enthusiast</h2>
+      <p class="mb-6">
+        Saya membantu Anda membangun website modern, cepat, dan responsif untuk
+        kebutuhan bisnis maupun personal.
+      </p>
+      <a
+        href="#services"
+        class="bg-white text-blue-700 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition transform hover:scale-105"
+      >
+        Lihat Layanan
+      </a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 container mx-auto">
+      <h3 class="text-2xl font-bold mb-6 text-center">Tentang Saya</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Foto -->
+        <div class="flex justify-center">
+          <img
+            src="assets/foto2 (1).jpg"
+            alt="Foto Profil"
+            class="w-64 h-64 rounded-full shadow-lg object-cover transform hover:scale-105 transition duration-300"
+          />
+        </div>
+        <!-- Info -->
+        <div>
+          <p class="mb-4">
+            Halo! Saya <strong>Obenhard Pasaribu</strong>, seorang mahasiswa
+            Informatika yang tertarik pada pengembangan web modern, keamanan
+            siber, dan teknologi cloud. Saya berkomitmen untuk terus belajar dan
+            memberikan solusi terbaik melalui teknologi.
+          </p>
+          <p>
+            Email:
+            <a href="mailto:obenhard@example.com" class="text-blue-600"
+              >obenpasaribu@gmail.com</a
+            >
+            | WhatsApp:
+            <a href="https://wa.me/6281262299331" class="text-blue-600"
+              >+62 812-6229-9331</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-100 py-16 px-6">
+      <div class="container mx-auto">
+        <h3 class="text-2xl font-bold text-center mb-10">Layanan Saya</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div
+            class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <h4 class="text-xl font-semibold mb-2">Web Development</h4>
+            <p class="mb-4">
+              Membangun website modern, responsif, dan cepat sesuai kebutuhan
+              Anda.
+            </p>
+            <div class="bg-blue-50 p-4 rounded-lg text-center">
+              <p class="font-bold text-lg">Rp100.000 / bulan</p>
+              <p class="text-gray-600">atau Rp1.000.000 / tahun</p>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div
+            class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <h4 class="text-xl font-semibold mb-2">UI/UX Design</h4>
+            <p class="mb-4">
+              Membuat desain antarmuka yang user-friendly dan menarik.
+            </p>
+            <div class="bg-blue-50 p-4 rounded-lg text-center">
+              <p class="font-bold text-lg">Rp100.000 / bulan</p>
+              <p class="text-gray-600">atau Rp1.000.000 / tahun</p>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div
+            class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <h4 class="text-xl font-semibold mb-2">Maintenance</h4>
+            <p class="mb-4">
+              Menangani perawatan dan update website agar tetap optimal.
+            </p>
+            <div class="bg-blue-50 p-4 rounded-lg text-center">
+              <p class="font-bold text-lg">Rp100.000 / bulan</p>
+              <p class="text-gray-600">atau Rp1.000.000 / tahun</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 container mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-6">Hubungi Saya</h3>
+      <p class="mb-4">
+        Tertarik bekerja sama? Silakan hubungi saya melalui email atau WhatsApp
+        di bawah ini.
+      </p>
+      <a
+        href="mailto:obenpasaribu@gmail.com"
+        class="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition transform hover:scale-105 inline-block"
+      >
+        Email
+      </a>
+      <a
+        href="https://wa.me/6281262299331"
+        class="bg-green-600 text-white px-6 py-3 rounded shadow hover:bg-green-700 transition transform hover:scale-105 inline-block ml-4"
+      >
+        WhatsApp
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center py-6 mt-10">
+      <p>&copy; 2024 Obenhard Pasaribu. Semua Hak Dilindungi.</p>
+    </footer>
+  </body>
+</html>
